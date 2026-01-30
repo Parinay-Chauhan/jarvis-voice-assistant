@@ -1,4 +1,5 @@
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+https://img.shields.io/badge/python-3.x-blue
+
 
 # Jarvis Voice Assistant (Python)
 
