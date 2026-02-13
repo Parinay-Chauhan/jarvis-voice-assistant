@@ -20,6 +20,13 @@ A simple Python-based voice assistant that performs basic tasks using voice comm
    pip install -r requirements.txt
 3. Run the assistant:
    python jarvis.py
+   
+## Demo
+
+The assistant recognizing and executing a voice command:
+
+![Jarvis Demo](demo.png)
+
 
 ## How It Works
 
