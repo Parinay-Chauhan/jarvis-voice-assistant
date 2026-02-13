@@ -1,55 +1,80 @@
-Voice-Controlled Desktop Assistant using Python
+# Voice-Controlled Desktop Assistant using Python
 
-A simple Python-based voice assistant that performs basic tasks using voice commands.
+A Python-based voice assistant that recognizes spoken commands and performs basic desktop tasks such as opening websites, fetching information, and speaking responses.
+
+---
 
 ## Features
-- Wikipedia search
+
+- Voice command recognition
 - Open websites (Google, YouTube, StackOverflow)
+- Wikipedia search and summary
+- Speak responses using text-to-speech
 - Tell current time
-- Voice interaction
 
-## Tech Stack
-- Python
-- pyttsx3
-- SpeechRecognition
-- Wikipedia API
+---
 
-## How to Run
-1. Clone this repository
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Run the assistant:
-   python jarvis.py
-   
 ## Demo
 
 The assistant recognizing and executing a voice command:
 
 ![Jarvis Demo](demo.png)
 
+---
+
+## Tech Stack
+
+- Python
+- SpeechRecognition
+- pyttsx3
+- Wikipedia API
+
+---
+
+## How to Run
+
+1. Clone the repository
+   git clone https://github.com/Parinay-Chauhan/jarvis-voice-assistant
+
+2. Install dependencies
+   pip install -r requirements.txt
+
+3. Run the assistant
+   python main.py
+
+  
+---
 
 ## How It Works
 
-The assistant captures voice input from the microphone using the SpeechRecognition library.
-The recognized text is matched with predefined commands.
+The assistant listens to microphone input using the SpeechRecognition library.  
+The captured speech is converted into text and matched with predefined commands.
 
-Based on the command, the assistant performs tasks such as:
+Based on the recognized command, the assistant performs actions such as:
 
 - Opening websites via webbrowser
 - Fetching summaries using Wikipedia API
-- Speaking responses using pyttsx3 text-to-speech engine
+- Speaking responses using pyttsx3
 
-The system runs in a continuous loop, enabling real-time voice interaction.
+The system runs continuously to allow real-time voice interaction.
 
-
-## Note
-Microphone access is required.
+---
 
 ## Future Improvements
 
-- Add wake-word detection ("Hey Jarvis")
-- Integrate AI conversation model
-- Add desktop automation features
-- Build GUI interface
+- Wake-word detection ("Hey Jarvis")
+- AI conversational capabilities
+- Desktop automation commands
+- Graphical user interface (GUI)
 - Cross-platform support
 
+---
+
+## Author
+
+Parinay Chauhan  
+BCA Student | Aspiring Software Developer  
+ 
+   
+
+   
