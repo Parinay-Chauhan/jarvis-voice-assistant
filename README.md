@@ -1,4 +1,4 @@
-# Jarvis Voice Assistant (Python)
+Voice-Controlled Desktop Assistant using Python
 
 A simple Python-based voice assistant that performs basic tasks using voice commands.
 
@@ -21,5 +21,28 @@ A simple Python-based voice assistant that performs basic tasks using voice comm
 3. Run the assistant:
    python jarvis.py
 
+## How It Works
+
+The assistant captures voice input from the microphone using the SpeechRecognition library.
+The recognized text is matched with predefined commands.
+
+Based on the command, the assistant performs tasks such as:
+
+- Opening websites via webbrowser
+- Fetching summaries using Wikipedia API
+- Speaking responses using pyttsx3 text-to-speech engine
+
+The system runs in a continuous loop, enabling real-time voice interaction.
+
+
 ## Note
 Microphone access is required.
+
+## Future Improvements
+
+- Add wake-word detection ("Hey Jarvis")
+- Integrate AI conversation model
+- Add desktop automation features
+- Build GUI interface
+- Cross-platform support
+
