@@ -34,7 +34,7 @@ The assistant recognizing and executing a voice command:
 ## How to Run
 
 1. Clone the repository
-   git clone https://github.com/Parinay-Chauhan/jarvis-voice-assistant
+   git clone https://github.com/Parinay-Chauhan/python-voice-assistant
 
 2. Install dependencies
    pip install -r requirements.txt
